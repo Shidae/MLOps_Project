@@ -1,7 +1,7 @@
 
 # Project Title
 
-This project is designed to showcase various MLOps techniques including model deployment, quantization, batching, and dynamic batching in a machine learning workflow. The repository contains scripts and resources to demonstrate the implementation and optimization of machine learning models using tools like MLflow and CUDA.
+This project, led by *The Fuzzy Scientist*, is designed to showcase various MLOps techniques including model deployment, quantization, batching, and dynamic batching in a machine learning workflow. The repository contains scripts and resources to demonstrate the implementation and optimization of machine learning models using tools like MLflow and CUDA.
 
 
 
