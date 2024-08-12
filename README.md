@@ -35,18 +35,18 @@ Follow the instructions in ```cuda_colab_install.py``` to set up CUDA in a Googl
 
 This project includes multiple Python scripts for different stages of model deployment and optimization:
 
-- **Training**: The `training_loop.py` script handles model training.
 - **Model Deployment**:
-  - `first_deployment.py`: Initial deployment script.
-  - `second_deployment.py`: Deployment with enhanced batching.
-  - `third_deployment_quantization.py`: Deployment with model quantization.
-  - `fourth_deployment_paged_attention.py`: Deployment with paged attention mechanism.
+  - `training_loop.py`:  Shows text classification training pipeline using PyTorch and MLflow for experiment tracking.
+  - `first_deployment.py`: Shows text generation using Hugging Face's transformers pipeline.
+  - `second_deployment.py`: Illustrates manual model loading and text generation with Hugging Face's transformers.
+  - `third_deployment_quantization.py`: Implements model quantization with ctranslate2 for efficient inference.
 - **Batching**:
-  - `batching_and_dynamic_batching.py`: Script for batching and dynamic batching.
-  - `sorting_batches.py`: Script for sorting batches.
+  - `batching_and_dynamic_batching.py`: Implements dynamic batching techniques for efficient text generation with PyTorch.
+  - `sorting_batches.py`: Demonstrates text generation optimization using Hugging Face's transformers library.
+  - `quantization.py`: Explores model quantization techniques using ctranslate2 for optimized deployment.
 - **MLflow**:
   - `mlflow_authentication.py`: Handles MLflow authentication.
-  - `mlflow_inference.py`: Script for running inference using MLflow.
+  - `mlflow_inference.py`: Demonstrates model serving and version management using MLflow.
 
 ## Contributing
 
