@@ -26,6 +26,9 @@ Install the required dependencies:
   pip install -r requirements_local.txt
 
 ```
+Install additional dependencies for CUDA and MLflow if needed:
+
+Follow the instructions in ```cuda_colab_install.py``` to set up CUDA in a Google Colab environment.
 
     
 ## Usage
